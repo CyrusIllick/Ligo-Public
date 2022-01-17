@@ -1,0 +1,26 @@
+{
+  "name" : "Dania",
+  "colors" : [
+	{
+	  "red" : 0.7450980, 
+	  "green" : 0.5764706, 
+	  "blue" : 0.7725490, 
+	  "alpha" : 1.00, 
+	  "name" : "light lavender"
+	},
+	{
+	  "red" : 0.6137255, 
+	  "green" : 0.6764706, 
+	  "blue" : 0.7862745, 
+	  "alpha" : 1.00, 
+	  "name" : "rock blue"
+	},
+	{
+	  "red" : 0.4823529, 
+	  "green" : 0.7764706, 
+	  "blue" : 0.8000000, 
+	  "alpha" : 1.00, 
+	  "name" : "monte carlo"
+	},
+  ]
+}

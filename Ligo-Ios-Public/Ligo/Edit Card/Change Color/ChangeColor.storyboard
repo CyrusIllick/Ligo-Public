@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kov-6j-gBa">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Change Color View Controller-->
+        <scene sceneID="a9p-Zv-6Ha">
+            <objects>
+                <viewController id="IyJ-hh-ejJ" customClass="ChangeColorViewController" customModule="Ligo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FpP-tn-GP6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="81" translatesAutoresizingMaskIntoConstraints="NO" id="UEI-Ju-1mu">
+                                <rect key="frame" x="74.5" y="246.5" width="265" height="403"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WFs-5P-Qby" userLabel="My Card Background" customClass="GradientView" customModule="Ligo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="265" height="171"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="265" id="UOO-SD-1r0"/>
+                                            <constraint firstAttribute="height" constant="171" id="wor-gD-Tep"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="38e-NR-YH8">
+                                        <rect key="frame" x="0.0" y="252" width="265" height="151"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick your style" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QzQ-eU-0hT">
+                                                <rect key="frame" x="70.5" y="0.0" width="124.5" height="21"/>
+                                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="1Lh-aG-dFS">
+                                                <rect key="frame" x="0.0" y="51" width="265" height="100"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qJS-o5-faw" customClass="CustomButton" customModule="Ligo" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="100" id="IFr-Qg-kMD"/>
+                                                            <constraint firstAttribute="width" secondItem="qJS-o5-faw" secondAttribute="height" multiplier="1:1" id="Qoi-ar-xyO"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lWb-DB-fzC" customClass="CustomButton" customModule="Ligo" customModuleProvider="target">
+                                                        <rect key="frame" x="165" y="0.0" width="100" height="100"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="lWb-DB-fzC" secondAttribute="height" multiplier="1:1" id="jHu-Nq-MP2"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="qJS-o5-faw" firstAttribute="height" secondItem="lWb-DB-fzC" secondAttribute="height" id="lVs-bZ-6xK"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="1Lh-aG-dFS" firstAttribute="leading" secondItem="38e-NR-YH8" secondAttribute="leading" id="1fI-pG-IRo"/>
+                                            <constraint firstAttribute="trailing" secondItem="1Lh-aG-dFS" secondAttribute="trailing" id="wgP-KU-HQv"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="38e-NR-YH8" firstAttribute="width" secondItem="WFs-5P-Qby" secondAttribute="width" id="vov-bf-IR1"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="UEI-Ju-1mu" firstAttribute="centerY" secondItem="FpP-tn-GP6" secondAttribute="centerY" id="791-mR-7Mq"/>
+                            <constraint firstItem="UEI-Ju-1mu" firstAttribute="centerX" secondItem="FpP-tn-GP6" secondAttribute="centerX" id="uvL-hc-Bz1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TPY-be-ulx"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XSL-0G-58B">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="WhY-Jw-lDz">
+                            <color key="tintColor" red="0.4756093025" green="0.76028686759999997" blue="0.50702732800000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="cancelAction:" destination="IyJ-hh-ejJ" id="5GR-6A-tJ1"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="Yml-Aw-let">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XUH-Bx-LeN">
+                                <rect key="frame" x="345" y="1.5" width="49" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="H0G-rq-Z62"/>
+                                    <constraint firstAttribute="width" constant="49" id="a2t-K1-3HL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" red="0.4756093025" green="0.76028686759999997" blue="0.50702732800000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveNewColorsButton:" destination="IyJ-hh-ejJ" eventType="touchUpInside" id="uL4-aj-XHH"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btnSelectFirst" destination="qJS-o5-faw" id="dgl-KD-r1s"/>
+                        <outlet property="btnSelectSecond" destination="lWb-DB-fzC" id="txL-cD-t7R"/>
+                        <outlet property="myCardBackground" destination="WFs-5P-Qby" id="FyA-v4-3sl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sJb-kD-PvE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1030.4347826086957" y="659.59821428571422"/>
+        </scene>
+        <!--Change Color-->
+        <scene sceneID="Efa-9G-z5y">
+            <objects>
+                <navigationController title="Change Color" automaticallyAdjustsScrollViewInsets="NO" id="kov-6j-gBa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Mxn-SS-6fS">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IyJ-hh-ejJ" kind="relationship" relationship="rootViewController" id="Zm1-kx-aQN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="koD-1d-TaO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-43.478260869565219" y="7.3660714285714279"/>
+        </scene>
+    </scenes>
+</document>

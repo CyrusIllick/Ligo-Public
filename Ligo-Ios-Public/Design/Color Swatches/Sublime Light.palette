@@ -1,0 +1,26 @@
+{
+  "name" : "Sublime Light",
+  "colors" : [
+	{
+	  "red" : 0.9882353, 
+	  "green" : 0.3607843, 
+	  "blue" : 0.4901961, 
+	  "alpha" : 1.00, 
+	  "name" : "brink pink"
+	},
+	{
+	  "red" : 0.7019608, 
+	  "green" : 0.4352941, 
+	  "blue" : 0.7372549, 
+	  "alpha" : 1.00, 
+	  "name" : "soft purple"
+	},
+	{
+	  "red" : 0.4156863, 
+	  "green" : 0.5098039, 
+	  "blue" : 0.9843137, 
+	  "alpha" : 1.00, 
+	  "name" : "cornflower purple"
+	},
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "Nepal",
+  "colors" : [
+	{
+	  "red" : 0.8705882, 
+	  "green" : 0.3803922, 
+	  "blue" : 0.3803922, 
+	  "alpha" : 1.00, 
+	  "name" : "roman"
+	},
+	{
+	  "red" : 0.5098039, 
+	  "green" : 0.3607843, 
+	  "blue" : 0.6509804, 
+	  "alpha" : 1.00, 
+	  "name" : "violet pastel"
+	},
+	{
+	  "red" : 0.1490196, 
+	  "green" : 0.3411765, 
+	  "blue" : 0.9215686, 
+	  "alpha" : 1.00, 
+	  "name" : "azul"
+	},
+  ]
+}

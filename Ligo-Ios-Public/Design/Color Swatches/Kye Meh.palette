@@ -1,0 +1,26 @@
+{
+  "name" : "Kye Meh",
+  "colors" : [
+	{
+	  "red" : 0.5098039, 
+	  "green" : 0.3764706, 
+	  "blue" : 0.7647059, 
+	  "alpha" : 1.00, 
+	  "name" : "fuchsia blue"
+	},
+	{
+	  "red" : 0.3450980, 
+	  "green" : 0.5627451, 
+	  "blue" : 0.6666667, 
+	  "alpha" : 1.00, 
+	  "name" : "air force blue"
+	},
+	{
+	  "red" : 0.1803922, 
+	  "green" : 0.7490196, 
+	  "blue" : 0.5686275, 
+	  "alpha" : 1.00, 
+	  "name" : "mountain meadow"
+	},
+  ]
+}

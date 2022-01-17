@@ -1,0 +1,26 @@
+{
+  "name" : "Sherbery",
+  "colors" : [
+	{
+	  "red" : 0.9686275, 
+	  "green" : 0.6156863, 
+	  "blue" : 0.0000000, 
+	  "alpha" : 1.00, 
+	  "name" : "california"
+	},
+	{
+	  "red" : 0.6803922, 
+	  "green" : 0.7843137, 
+	  "blue" : 0.2745098, 
+	  "alpha" : 1.00, 
+	  "name" : "android green"
+	},
+	{
+	  "red" : 0.3921569, 
+	  "green" : 0.9529412, 
+	  "blue" : 0.5490196, 
+	  "alpha" : 1.00, 
+	  "name" : "medium screamin green"
+	},
+  ]
+}

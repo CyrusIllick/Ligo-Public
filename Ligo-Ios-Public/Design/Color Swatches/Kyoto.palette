@@ -1,0 +1,26 @@
+{
+  "name" : "Kyoto",
+  "colors" : [
+	{
+	  "red" : 0.7607843, 
+	  "green" : 0.0823529, 
+	  "blue" : 0.0000000, 
+	  "alpha" : 1.00, 
+	  "name" : "milano red"
+	},
+	{
+	  "red" : 0.8803922, 
+	  "green" : 0.4274510, 
+	  "blue" : 0.0000000, 
+	  "alpha" : 1.00, 
+	  "name" : "deep mango tango"
+	},
+	{
+	  "red" : 1.0000000, 
+	  "green" : 0.7725490, 
+	  "blue" : 0.0000000, 
+	  "alpha" : 1.00, 
+	  "name" : "sunglow"
+	},
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "Pacific Dream",
+  "colors" : [
+	{
+	  "red" : 0.2039216, 
+	  "green" : 0.9098039, 
+	  "blue" : 0.6196078, 
+	  "alpha" : 1.00, 
+	  "name" : "shamrock"
+	},
+	{
+	  "red" : 0.1313725, 
+	  "green" : 0.5568627, 
+	  "blue" : 0.4411765, 
+	  "alpha" : 1.00, 
+	  "name" : "viridian"
+	},
+	{
+	  "red" : 0.0588235, 
+	  "green" : 0.2039216, 
+	  "blue" : 0.2627451, 
+	  "alpha" : 1.00, 
+	  "name" : "elephant"
+	},
+  ]
+}

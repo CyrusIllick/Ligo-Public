@@ -1,0 +1,26 @@
+{
+  "name" : "Disco",
+  "colors" : [
+	{
+	  "red" : 0.3058824, 
+	  "green" : 0.8039216, 
+	  "blue" : 0.7686275, 
+	  "alpha" : 1.00, 
+	  "name" : "medium turquoise pastel"
+	},
+	{
+	  "red" : 0.3196078, 
+	  "green" : 0.5941176, 
+	  "blue" : 0.6039216, 
+	  "alpha" : 1.00, 
+	  "name" : "old malachite"
+	},
+	{
+	  "red" : 0.3333333, 
+	  "green" : 0.3843137, 
+	  "blue" : 0.4392157, 
+	  "alpha" : 1.00, 
+	  "name" : "black coral pearl"
+	},
+  ]
+}

@@ -1,0 +1,6 @@
+framework module Pods_LigoTests {
+  umbrella header "Pods-LigoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

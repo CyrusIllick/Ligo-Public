@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ligo.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>B179A9739B6C3923D3D874C1E0614CF113693482</string>
+				<key>dateExpires</key>
+				<string>20/12/2020</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>B179A9739B6C3923D3D874C1E0614CF113693482</string>
+						<key>dateExpires</key>
+						<string>20/12/2020</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>FBLPromises.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>8U8ABLMRK4</string>
+						<key>name</key>
+						<string>Hassan Abbasi</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>B179A9739B6C3923D3D874C1E0614CF113693482</string>
+						<key>dateExpires</key>
+						<string>20/12/2020</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>GTMSessionFetcher.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>8U8ABLMRK4</string>
+						<key>name</key>
+						<string>Hassan Abbasi</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>B179A9739B6C3923D3D874C1E0614CF113693482</string>
+						<key>dateExpires</key>
+						<string>20/12/2020</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>GoogleUtilities.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>8U8ABLMRK4</string>
+						<key>name</key>
+						<string>Hassan Abbasi</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>B179A9739B6C3923D3D874C1E0614CF113693482</string>
+						<key>dateExpires</key>
+						<string>20/12/2020</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>IQKeyboardManagerSwift.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>8U8ABLMRK4</string>
+						<key>name</key>
+						<string>Hassan Abbasi</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>B179A9739B6C3923D3D874C1E0614CF113693482</string>
+						<key>dateExpires</key>
+						<string>20/12/2020</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SideMenu.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>8U8ABLMRK4</string>
+						<key>name</key>
+						<string>Hassan Abbasi</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>B179A9739B6C3923D3D874C1E0614CF113693482</string>
+						<key>dateExpires</key>
+						<string>20/12/2020</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>leveldb.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>8U8ABLMRK4</string>
+						<key>name</key>
+						<string>Hassan Abbasi</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>B179A9739B6C3923D3D874C1E0614CF113693482</string>
+						<key>dateExpires</key>
+						<string>20/12/2020</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>nanopb.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>8U8ABLMRK4</string>
+						<key>name</key>
+						<string>Hassan Abbasi</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>8U8ABLMRK4.com.ligo.ligoapp</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>8U8ABLMRK4</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>8U8ABLMRK4.com.ligo.ligoapp</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Ligo.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>0a78f610-a431-4a84-9b5b-0be1516eaecd</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>8U8ABLMRK4</string>
+				<key>name</key>
+				<string>Hassan Abbasi</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,26 @@
+{
+  "name" : "Dawn",
+  "colors" : [
+	{
+	  "red" : 0.9529412, 
+	  "green" : 0.5647059, 
+	  "blue" : 0.3098039, 
+	  "alpha" : 1.00, 
+	  "name" : "faded orange"
+	},
+	{
+	  "red" : 0.5921569, 
+	  "green" : 0.4137255, 
+	  "blue" : 0.3764706, 
+	  "alpha" : 1.00, 
+	  "name" : "deep chestnut"
+	},
+	{
+	  "red" : 0.2313725, 
+	  "green" : 0.2627451, 
+	  "blue" : 0.4431373, 
+	  "alpha" : 1.00, 
+	  "name" : "san juan"
+	},
+  ]
+}

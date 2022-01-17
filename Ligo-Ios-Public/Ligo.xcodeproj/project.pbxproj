@@ -1,0 +1,1291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0049F69816192B5A9DA0A826 /* Pods_Ligo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26D99601C526F0226018407 /* Pods_Ligo.framework */; };
+		10E1A2E3BCEBDCDDBDFBA829 /* Pods_Ligo_LigoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7174148D738D0B016227CC3 /* Pods_Ligo_LigoUITests.framework */; };
+		190F2C0124896266004CEC01 /* EditCardController+DataSource+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F2C0024896266004CEC01 /* EditCardController+DataSource+Delegate.swift */; };
+		190F2C032489E0D5004CEC01 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F2C022489E0D5004CEC01 /* SplashViewController.swift */; };
+		1918001924BE619100835497 /* RoveWalkThrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1918001824BE619100835497 /* RoveWalkThrough.swift */; };
+		1918001D24BF792500835497 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1918001C24BF792500835497 /* ImageHelper.swift */; };
+		1918002024C0E79E00835497 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1918001F24C0E79E00835497 /* ProfileView.swift */; };
+		1957588724D2AFDE001B06B0 /* StoreReviewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1957588624D2AFDE001B06B0 /* StoreReviewHelper.swift */; };
+		1957588924D3047A001B06B0 /* QRCodeView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1957588824D3047A001B06B0 /* QRCodeView1.swift */; };
+		197A93EC254CD1EB00F739F8 /* AddInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A93EB254CD1EB00F739F8 /* AddInfoTableViewCell.swift */; };
+		197D674D24A37B65002E359F /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D674C24A37B65002E359F /* ColorPicker.swift */; };
+		197D674F24A3DA19002E359F /* PasswordResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D674E24A3DA19002E359F /* PasswordResetView.swift */; };
+		197D675124A3E9FD002E359F /* TNCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D675024A3E9FD002E359F /* TNCView.swift */; };
+		1980D78A24EFC4A900597E3D /* Partner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1980D78924EFC4A900597E3D /* Partner.swift */; };
+		19A12EA02488B7B5000A61E3 /* CardTableViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A12E9F2488B7B5000A61E3 /* CardTableViewHandler.swift */; };
+		19A12EA22488BF12000A61E3 /* CardSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A12EA12488BF12000A61E3 /* CardSection.swift */; };
+		19AD686D24C828C400667B1F /* DataGrab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD686C24C828C400667B1F /* DataGrab.swift */; };
+		19BA6D9B24853DDD004C75DB /* LoginSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BA6D9A24853DDD004C75DB /* LoginSignUpViewController.swift */; };
+		19BA6D9D24854414004C75DB /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BA6D9C24854414004C75DB /* CustomButton.swift */; };
+		19BA6D9F2485B78B004C75DB /* PasswordEntryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BA6D9E2485B78B004C75DB /* PasswordEntryTextField.swift */; };
+		19D7FE8324C5CC5100E2BA3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19D7FE8224C5CC5100E2BA3A /* GoogleService-Info.plist */; };
+		19E48154248BE6C000381DDC /* HomeViewController+Indexing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E48153248BE6C000381DDC /* HomeViewController+Indexing.swift */; };
+		19E48156248C125D00381DDC /* IndexCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E48155248C125D00381DDC /* IndexCollectionViewCell.swift */; };
+		19E4815D248CCB9D00381DDC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E4815C248CCB9D00381DDC /* Theme.swift */; };
+		19F240A42485C39A0002D970 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F240A32485C39A0002D970 /* Extensions.swift */; };
+		19F240A62485C5FD0002D970 /* CustomSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F240A52485C5FD0002D970 /* CustomSwitch.swift */; };
+		19F240A92485D8D60002D970 /* AlertBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F240A82485D8D60002D970 /* AlertBox.swift */; };
+		19F240AB2485E65C0002D970 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F240AA2485E65C0002D970 /* LoadingView.swift */; };
+		19F240AF248690EC0002D970 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F240AE248690EC0002D970 /* Sidebar.swift */; };
+		19F240B12487331B0002D970 /* WalletUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F240B02487331A0002D970 /* WalletUITableViewCell.swift */; };
+		19FA6ECE24D1A35600040EF4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA6ECD24D1A35600040EF4 /* BaseViewController.swift */; };
+		31AC5A3D72BDE02CDA158547 /* Pods_LigoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20E5A2901C0FDABB38ABFF3 /* Pods_LigoTests.framework */; };
+		5D0ABB5E242EA08100F02D13 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0ABB5D242EA08100F02D13 /* Identity.swift */; };
+		5D0ABB60242EA4C900F02D13 /* EditCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0ABB5F242EA4C900F02D13 /* EditCardTableViewCell.swift */; };
+		5D0C0095243E7EA000608D58 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C0094243E7EA000608D58 /* GradientView.swift */; };
+		5D0DED952436BCA8001564AB /* LinkRequests.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0DED942436BCA8001564AB /* LinkRequests.storyboard */; };
+		5D0DED972436BCEA001564AB /* LinkRequestsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0DED962436BCEA001564AB /* LinkRequestsTableViewController.swift */; };
+		5D0DED992436BD3A001564AB /* LinkRequestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0DED982436BD39001564AB /* LinkRequestsTableViewCell.swift */; };
+		5D17F1CD243FB57E00A65E66 /* UIView+Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D17F1CC243FB57E00A65E66 /* UIView+Button.swift */; };
+		5D452B02243673DA00267408 /* SearchResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D452B01243673DA00267408 /* SearchResultsTableViewCell.swift */; };
+		5D452B0424367F5100267408 /* SearchResultsController+CellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D452B0324367F5100267408 /* SearchResultsController+CellDelegate.swift */; };
+		5D5251A7242AAB9B0022A121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5251A6242AAB9B0022A121 /* AppDelegate.swift */; };
+		5D5251A9242AAB9B0022A121 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5251A8242AAB9B0022A121 /* SceneDelegate.swift */; };
+		5D5251AE242AAB9B0022A121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5251AC242AAB9B0022A121 /* Main.storyboard */; };
+		5D5251B0242AABA60022A121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5251AF242AABA60022A121 /* Assets.xcassets */; };
+		5D5251B3242AABA60022A121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5251B1242AABA60022A121 /* LaunchScreen.storyboard */; };
+		5D5251BE242AABA70022A121 /* LigoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5251BD242AABA70022A121 /* LigoTests.swift */; };
+		5D5251C9242AABA70022A121 /* LigoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5251C8242AABA70022A121 /* LigoUITests.swift */; };
+		5D5251D7242AACC90022A121 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5251D6242AACC90022A121 /* LogInViewController.swift */; };
+		5D5251DA242AACF60022A121 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5251D9242AACF60022A121 /* Home.storyboard */; };
+		5D5251DC242AAD0B0022A121 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5251DB242AAD0B0022A121 /* HomeViewController.swift */; };
+		5D6778A42431882400B8E9D7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6778A32431882400B8E9D7 /* SignUpViewController.swift */; };
+		5D6D024B242C4C160008C3AA /* EditCard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6D024A242C4C160008C3AA /* EditCard.storyboard */; };
+		5D6D024D242C4F8B0008C3AA /* EditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D024C242C4F8B0008C3AA /* EditCardViewController.swift */; };
+		5D6ED40C24356A3200EC4FBC /* SearchMainController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6ED40624356A3200EC4FBC /* SearchMainController+DataSource.swift */; };
+		5D6ED40D24356A3200EC4FBC /* SearchMainController+Updating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6ED40724356A3200EC4FBC /* SearchMainController+Updating.swift */; };
+		5D6ED40E24356A3200EC4FBC /* SearchMainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6ED40824356A3200EC4FBC /* SearchMainTableViewController.swift */; };
+		5D6ED40F24356A3200EC4FBC /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6ED40924356A3200EC4FBC /* SearchResultsTableViewController.swift */; };
+		5D6ED41024356A3200EC4FBC /* SearchMainController+Restore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6ED40A24356A3200EC4FBC /* SearchMainController+Restore.swift */; };
+		5D6ED41124356A3200EC4FBC /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6ED40B24356A3200EC4FBC /* Contact.swift */; };
+		5D6ED4162435714000EC4FBC /* HomeViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6ED4152435714000EC4FBC /* HomeViewController+DataSource.swift */; };
+		5D6ED41B2435773B00EC4FBC /* ViewCard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6ED41A2435773B00EC4FBC /* ViewCard.storyboard */; };
+		5D6ED41D24357A0500EC4FBC /* ViewCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6ED41C24357A0500EC4FBC /* ViewCardViewController.swift */; };
+		5D6ED41F24357AB200EC4FBC /* ViewCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6ED41E24357AB200EC4FBC /* ViewCardTableViewCell.swift */; };
+		5D6ED42124357D1F00EC4FBC /* ViewCardController+DataSource+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6ED42024357D1F00EC4FBC /* ViewCardController+DataSource+Delegate.swift */; };
+		5D7922FF243F0E4B00D53490 /* Montserrat ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922ED243F0C6700D53490 /* Montserrat ExtraLight.ttf */; };
+		5D792300243F0E5000D53490 /* Montserrat ExtraLight Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922F1243F0C6800D53490 /* Montserrat ExtraLight Italic.ttf */; };
+		5D792301243F0E5000D53490 /* Montserrat Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922FA243F0C6A00D53490 /* Montserrat Thin.ttf */; };
+		5D792302243F0E5000D53490 /* Montserrat Thin Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922F6243F0C6900D53490 /* Montserrat Thin Italic.ttf */; };
+		5D792303243F0E5000D53490 /* Montserrat Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922FB243F0C6B00D53490 /* Montserrat Light.ttf */; };
+		5D792304243F0E5000D53490 /* Montserrat Light Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922F7243F0C6900D53490 /* Montserrat Light Italic.ttf */; };
+		5D792305243F0E5000D53490 /* Montserrat Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922EE243F0C6700D53490 /* Montserrat Regular.ttf */; };
+		5D792306243F0E5000D53490 /* Montserrat Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922F4243F0C6900D53490 /* Montserrat Italic.ttf */; };
+		5D792307243F0E5000D53490 /* Montserrat Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922F0243F0C6800D53490 /* Montserrat Medium.ttf */; };
+		5D792308243F0E5000D53490 /* Montserrat Medium Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922F9243F0C6A00D53490 /* Montserrat Medium Italic.ttf */; };
+		5D792309243F0E5000D53490 /* Montserrat SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922FC243F0C6B00D53490 /* Montserrat SemiBold.ttf */; };
+		5D79230A243F0E5000D53490 /* Montserrat SemiBold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922EF243F0C6700D53490 /* Montserrat SemiBold Italic.ttf */; };
+		5D79230B243F0E5000D53490 /* Montserrat Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922F5243F0C6900D53490 /* Montserrat Bold.ttf */; };
+		5D79230C243F0E5000D53490 /* Montserrat Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922FE243F0C6B00D53490 /* Montserrat Bold Italic.ttf */; };
+		5D79230D243F0E5000D53490 /* Montserrat ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922F2243F0C6800D53490 /* Montserrat ExtraBold.ttf */; };
+		5D79230E243F0E5000D53490 /* Montserrat ExtraBold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922FD243F0C6B00D53490 /* Montserrat ExtraBold Italic.ttf */; };
+		5D79230F243F0E5000D53490 /* Montserrat Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922F8243F0C6A00D53490 /* Montserrat Black.ttf */; };
+		5D792310243F0E5000D53490 /* Montserrat Black Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7922F3243F0C6800D53490 /* Montserrat Black Italic.ttf */; };
+		5D9646C22437C7EB003EBD83 /* LinkRequestsController+CellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9646C12437C7EB003EBD83 /* LinkRequestsController+CellDelegate.swift */; };
+		5DB448B6243697AC007CBDC4 /* ViewStateListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB448B5243697AC007CBDC4 /* ViewStateListener.swift */; };
+		5DB448B824369AAE007CBDC4 /* HomeViewController+ViewStateListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB448B724369AAE007CBDC4 /* HomeViewController+ViewStateListener.swift */; };
+		84164263249C29AE00CD77C8 /* PasswordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84164261249C29AE00CD77C8 /* PasswordTableViewController.swift */; };
+		84397FC8243117EE0009033D /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84397FC7243117EE0009033D /* CustomAlert.swift */; };
+		84403AA7249B10CB000F52F8 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84403AA5249B10CB000F52F8 /* SettingsTableViewController.swift */; };
+		8471A89E24B3616D0039C399 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8471A89D24B3616D0039C399 /* PopUpViewController.swift */; };
+		8471A8A024B361810039C399 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8471A89F24B361810039C399 /* QRCodeView.swift */; };
+		8490320F24D7A66300714EEE /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490320E24D7A66300714EEE /* Analytics.swift */; };
+		8490321724D861FA00714EEE /* PrivacySettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490321624D861FA00714EEE /* PrivacySettingsTableViewController.swift */; };
+		849C342824B15782009FEDED /* BusinessConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C342624B15782009FEDED /* BusinessConnectViewController.swift */; };
+		B35EE72E2491C4D9006A7868 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35EE72D2491C4D9006A7868 /* Settings.storyboard */; };
+		B3A45FBF249C7A3A00DB0015 /* ChangeColorViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A45FBD249C7A3A00DB0015 /* ChangeColorViewController3.swift */; };
+		B3A45FC0249C7A3A00DB0015 /* ChangeColor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A45FBE249C7A3A00DB0015 /* ChangeColor.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D5251BA242AABA70022A121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D52519B242AAB9B0022A121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D5251A2242AAB9B0022A121;
+			remoteInfo = Ligo;
+		};
+		5D5251C5242AABA70022A121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D52519B242AAB9B0022A121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D5251A2242AAB9B0022A121;
+			remoteInfo = Ligo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		190F2C0024896266004CEC01 /* EditCardController+DataSource+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditCardController+DataSource+Delegate.swift"; sourceTree = "<group>"; };
+		190F2C022489E0D5004CEC01 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		1918001824BE619100835497 /* RoveWalkThrough.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoveWalkThrough.swift; sourceTree = "<group>"; };
+		1918001C24BF792500835497 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		1918001E24C0CDB400835497 /* Ligo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ligo.entitlements; sourceTree = "<group>"; };
+		1918001F24C0E79E00835497 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1957588624D2AFDE001B06B0 /* StoreReviewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreReviewHelper.swift; sourceTree = "<group>"; };
+		1957588824D3047A001B06B0 /* QRCodeView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView1.swift; sourceTree = "<group>"; };
+		197A93EB254CD1EB00F739F8 /* AddInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInfoTableViewCell.swift; sourceTree = "<group>"; };
+		197D674C24A37B65002E359F /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		197D674E24A3DA19002E359F /* PasswordResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetView.swift; sourceTree = "<group>"; };
+		197D675024A3E9FD002E359F /* TNCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNCView.swift; sourceTree = "<group>"; };
+		1980D78924EFC4A900597E3D /* Partner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partner.swift; sourceTree = "<group>"; };
+		19A12E9F2488B7B5000A61E3 /* CardTableViewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewHandler.swift; sourceTree = "<group>"; };
+		19A12EA12488BF12000A61E3 /* CardSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSection.swift; sourceTree = "<group>"; };
+		19AD686C24C828C400667B1F /* DataGrab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGrab.swift; sourceTree = "<group>"; };
+		19BA6D9A24853DDD004C75DB /* LoginSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpViewController.swift; sourceTree = "<group>"; };
+		19BA6D9C24854414004C75DB /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		19BA6D9E2485B78B004C75DB /* PasswordEntryTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordEntryTextField.swift; sourceTree = "<group>"; };
+		19D7FE8224C5CC5100E2BA3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		19E48153248BE6C000381DDC /* HomeViewController+Indexing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Indexing.swift"; sourceTree = "<group>"; };
+		19E48155248C125D00381DDC /* IndexCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexCollectionViewCell.swift; sourceTree = "<group>"; };
+		19E4815C248CCB9D00381DDC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		19F240A32485C39A0002D970 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		19F240A52485C5FD0002D970 /* CustomSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwitch.swift; sourceTree = "<group>"; };
+		19F240A82485D8D60002D970 /* AlertBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBox.swift; sourceTree = "<group>"; };
+		19F240AA2485E65C0002D970 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		19F240AE248690EC0002D970 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		19F240B02487331A0002D970 /* WalletUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletUITableViewCell.swift; sourceTree = "<group>"; };
+		19FA6ECD24D1A35600040EF4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3C6689EF7BE89BC0DE15E1DF /* Pods-Ligo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ligo.release.xcconfig"; path = "Target Support Files/Pods-Ligo/Pods-Ligo.release.xcconfig"; sourceTree = "<group>"; };
+		549A414E80532BC28DAA9174 /* Pods-Ligo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ligo.debug.xcconfig"; path = "Target Support Files/Pods-Ligo/Pods-Ligo.debug.xcconfig"; sourceTree = "<group>"; };
+		5D0ABB5D242EA08100F02D13 /* Identity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
+		5D0ABB5F242EA4C900F02D13 /* EditCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardTableViewCell.swift; sourceTree = "<group>"; };
+		5D0C0094243E7EA000608D58 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		5D0DED942436BCA8001564AB /* LinkRequests.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LinkRequests.storyboard; sourceTree = "<group>"; };
+		5D0DED962436BCEA001564AB /* LinkRequestsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkRequestsTableViewController.swift; sourceTree = "<group>"; };
+		5D0DED982436BD39001564AB /* LinkRequestsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkRequestsTableViewCell.swift; sourceTree = "<group>"; };
+		5D17F1CC243FB57E00A65E66 /* UIView+Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Button.swift"; sourceTree = "<group>"; };
+		5D452B01243673DA00267408 /* SearchResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewCell.swift; sourceTree = "<group>"; };
+		5D452B0324367F5100267408 /* SearchResultsController+CellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchResultsController+CellDelegate.swift"; sourceTree = "<group>"; };
+		5D5251A3242AAB9B0022A121 /* Ligo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ligo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5251A6242AAB9B0022A121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D5251A8242AAB9B0022A121 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5D5251AD242AAB9B0022A121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D5251AF242AABA60022A121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D5251B2242AABA60022A121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D5251B4242AABA60022A121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5251B9242AABA70022A121 /* LigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LigoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5251BD242AABA70022A121 /* LigoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigoTests.swift; sourceTree = "<group>"; };
+		5D5251BF242AABA70022A121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5251C4242AABA70022A121 /* LigoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LigoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5251C8242AABA70022A121 /* LigoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigoUITests.swift; sourceTree = "<group>"; };
+		5D5251CA242AABA70022A121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5251D6242AACC90022A121 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		5D5251D9242AACF60022A121 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		5D5251DB242AAD0B0022A121 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5D6778A32431882400B8E9D7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5D6D024A242C4C160008C3AA /* EditCard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditCard.storyboard; sourceTree = "<group>"; };
+		5D6D024C242C4F8B0008C3AA /* EditCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardViewController.swift; sourceTree = "<group>"; };
+		5D6ED40624356A3200EC4FBC /* SearchMainController+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SearchMainController+DataSource.swift"; sourceTree = "<group>"; };
+		5D6ED40724356A3200EC4FBC /* SearchMainController+Updating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SearchMainController+Updating.swift"; sourceTree = "<group>"; };
+		5D6ED40824356A3200EC4FBC /* SearchMainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchMainTableViewController.swift; sourceTree = "<group>"; };
+		5D6ED40924356A3200EC4FBC /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
+		5D6ED40A24356A3200EC4FBC /* SearchMainController+Restore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SearchMainController+Restore.swift"; sourceTree = "<group>"; };
+		5D6ED40B24356A3200EC4FBC /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		5D6ED4152435714000EC4FBC /* HomeViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+DataSource.swift"; sourceTree = "<group>"; };
+		5D6ED41A2435773B00EC4FBC /* ViewCard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewCard.storyboard; sourceTree = "<group>"; };
+		5D6ED41C24357A0500EC4FBC /* ViewCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCardViewController.swift; sourceTree = "<group>"; };
+		5D6ED41E24357AB200EC4FBC /* ViewCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCardTableViewCell.swift; sourceTree = "<group>"; };
+		5D6ED42024357D1F00EC4FBC /* ViewCardController+DataSource+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewCardController+DataSource+Delegate.swift"; sourceTree = "<group>"; };
+		5D7922ED243F0C6700D53490 /* Montserrat ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat ExtraLight.ttf"; sourceTree = "<group>"; };
+		5D7922EE243F0C6700D53490 /* Montserrat Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat Regular.ttf"; sourceTree = "<group>"; };
+		5D7922EF243F0C6700D53490 /* Montserrat SemiBold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat SemiBold Italic.ttf"; sourceTree = "<group>"; };
+		5D7922F0243F0C6800D53490 /* Montserrat Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat Medium.ttf"; sourceTree = "<group>"; };
+		5D7922F1243F0C6800D53490 /* Montserrat ExtraLight Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat ExtraLight Italic.ttf"; sourceTree = "<group>"; };
+		5D7922F2243F0C6800D53490 /* Montserrat ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat ExtraBold.ttf"; sourceTree = "<group>"; };
+		5D7922F3243F0C6800D53490 /* Montserrat Black Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat Black Italic.ttf"; sourceTree = "<group>"; };
+		5D7922F4243F0C6900D53490 /* Montserrat Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat Italic.ttf"; sourceTree = "<group>"; };
+		5D7922F5243F0C6900D53490 /* Montserrat Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat Bold.ttf"; sourceTree = "<group>"; };
+		5D7922F6243F0C6900D53490 /* Montserrat Thin Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat Thin Italic.ttf"; sourceTree = "<group>"; };
+		5D7922F7243F0C6900D53490 /* Montserrat Light Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat Light Italic.ttf"; sourceTree = "<group>"; };
+		5D7922F8243F0C6A00D53490 /* Montserrat Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat Black.ttf"; sourceTree = "<group>"; };
+		5D7922F9243F0C6A00D53490 /* Montserrat Medium Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat Medium Italic.ttf"; sourceTree = "<group>"; };
+		5D7922FA243F0C6A00D53490 /* Montserrat Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat Thin.ttf"; sourceTree = "<group>"; };
+		5D7922FB243F0C6B00D53490 /* Montserrat Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat Light.ttf"; sourceTree = "<group>"; };
+		5D7922FC243F0C6B00D53490 /* Montserrat SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat SemiBold.ttf"; sourceTree = "<group>"; };
+		5D7922FD243F0C6B00D53490 /* Montserrat ExtraBold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat ExtraBold Italic.ttf"; sourceTree = "<group>"; };
+		5D7922FE243F0C6B00D53490 /* Montserrat Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat Bold Italic.ttf"; sourceTree = "<group>"; };
+		5D9646C12437C7EB003EBD83 /* LinkRequestsController+CellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkRequestsController+CellDelegate.swift"; sourceTree = "<group>"; };
+		5DB448B5243697AC007CBDC4 /* ViewStateListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStateListener.swift; sourceTree = "<group>"; };
+		5DB448B724369AAE007CBDC4 /* HomeViewController+ViewStateListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+ViewStateListener.swift"; sourceTree = "<group>"; };
+		84164262249C29AE00CD77C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = "Ligo/Log In/Base.lproj/PasswordTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		84397FC7243117EE0009033D /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		84403AA6249B10CB000F52F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = "Ligo/Log In/Base.lproj/SettingsTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		8471A89D24B3616D0039C399 /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		8471A89F24B361810039C399 /* QRCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		8490320E24D7A66300714EEE /* Analytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		8490321624D861FA00714EEE /* PrivacySettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacySettingsTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		849C342724B15782009FEDED /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = "Ligo/Log In/Base.lproj/BusinessConnectViewController.swift"; sourceTree = SOURCE_ROOT; };
+		87B4CB75B046D0F05B0CE790 /* Pods-Ligo-LigoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ligo-LigoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ligo-LigoUITests/Pods-Ligo-LigoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9706111BB1FCC505E127CABC /* Pods-LigoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LigoTests.debug.xcconfig"; path = "Target Support Files/Pods-LigoTests/Pods-LigoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9896FFD600C4571D9ADEC4F3 /* Pods-Ligo-LigoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ligo-LigoUITests.release.xcconfig"; path = "Target Support Files/Pods-Ligo-LigoUITests/Pods-Ligo-LigoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B26D99601C526F0226018407 /* Pods_Ligo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ligo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35EE72D2491C4D9006A7868 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Settings.storyboard; path = Ligo/Settings/Settings.storyboard; sourceTree = SOURCE_ROOT; };
+		B3A45FBD249C7A3A00DB0015 /* ChangeColorViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeColorViewController3.swift; sourceTree = "<group>"; };
+		B3A45FBE249C7A3A00DB0015 /* ChangeColor.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChangeColor.storyboard; sourceTree = "<group>"; };
+		C20E5A2901C0FDABB38ABFF3 /* Pods_LigoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LigoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7174148D738D0B016227CC3 /* Pods_Ligo_LigoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ligo_LigoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83B8C170C540124395F1096 /* Pods-LigoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LigoTests.release.xcconfig"; path = "Target Support Files/Pods-LigoTests/Pods-LigoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D5251A0242AAB9B0022A121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0049F69816192B5A9DA0A826 /* Pods_Ligo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5251B6242AABA70022A121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AC5A3D72BDE02CDA158547 /* Pods_LigoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5251C1242AABA70022A121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E1A2E3BCEBDCDDBDFBA829 /* Pods_Ligo_LigoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19F240A72485C6510002D970 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				197D674E24A3DA19002E359F /* PasswordResetView.swift */,
+				197D675024A3E9FD002E359F /* TNCView.swift */,
+				19BA6D9C24854414004C75DB /* CustomButton.swift */,
+				19BA6D9E2485B78B004C75DB /* PasswordEntryTextField.swift */,
+				19F240A52485C5FD0002D970 /* CustomSwitch.swift */,
+				19F240A82485D8D60002D970 /* AlertBox.swift */,
+				19F240AA2485E65C0002D970 /* LoadingView.swift */,
+				5D0C0094243E7EA000608D58 /* GradientView.swift */,
+				5D17F1CC243FB57E00A65E66 /* UIView+Button.swift */,
+				84397FC7243117EE0009033D /* CustomAlert.swift */,
+				19E4815C248CCB9D00381DDC /* Theme.swift */,
+				197D674C24A37B65002E359F /* ColorPicker.swift */,
+				1918001824BE619100835497 /* RoveWalkThrough.swift */,
+				1918001F24C0E79E00835497 /* ProfileView.swift */,
+				19FA6ECD24D1A35600040EF4 /* BaseViewController.swift */,
+				1957588824D3047A001B06B0 /* QRCodeView1.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		19F240B2248736510002D970 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				19F240B02487331A0002D970 /* WalletUITableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		19F240B32487365B0002D970 /* SideBar */ = {
+			isa = PBXGroup;
+			children = (
+				19F240AE248690EC0002D970 /* Sidebar.swift */,
+			);
+			path = SideBar;
+			sourceTree = "<group>";
+		};
+		3F2B82643DF193B565ACE8C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B26D99601C526F0226018407 /* Pods_Ligo.framework */,
+				E7174148D738D0B016227CC3 /* Pods_Ligo_LigoUITests.framework */,
+				C20E5A2901C0FDABB38ABFF3 /* Pods_LigoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D0ABB5C242E9F8000F02D13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8490320E24D7A66300714EEE /* Analytics.swift */,
+				5DB448B5243697AC007CBDC4 /* ViewStateListener.swift */,
+				5D0ABB5D242EA08100F02D13 /* Identity.swift */,
+				19A12E9F2488B7B5000A61E3 /* CardTableViewHandler.swift */,
+				19A12EA12488BF12000A61E3 /* CardSection.swift */,
+				1918001C24BF792500835497 /* ImageHelper.swift */,
+				19AD686C24C828C400667B1F /* DataGrab.swift */,
+				1957588624D2AFDE001B06B0 /* StoreReviewHelper.swift */,
+				1980D78924EFC4A900597E3D /* Partner.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D0DED932436BC34001564AB /* Link Requests */ = {
+			isa = PBXGroup;
+			children = (
+				5D0DED942436BCA8001564AB /* LinkRequests.storyboard */,
+				5D0DED962436BCEA001564AB /* LinkRequestsTableViewController.swift */,
+				5D9646C12437C7EB003EBD83 /* LinkRequestsController+CellDelegate.swift */,
+				5D0DED982436BD39001564AB /* LinkRequestsTableViewCell.swift */,
+			);
+			path = "Link Requests";
+			sourceTree = "<group>";
+		};
+		5D52519A242AAB9B0022A121 = {
+			isa = PBXGroup;
+			children = (
+				5D5251A5242AAB9B0022A121 /* Ligo */,
+				5D5251BC242AABA70022A121 /* LigoTests */,
+				5D5251C7242AABA70022A121 /* LigoUITests */,
+				5D5251A4242AAB9B0022A121 /* Products */,
+				D09D3BA4CCE594EF3046B46D /* Pods */,
+				3F2B82643DF193B565ACE8C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D5251A4242AAB9B0022A121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D5251A3242AAB9B0022A121 /* Ligo.app */,
+				5D5251B9242AABA70022A121 /* LigoTests.xctest */,
+				5D5251C4242AABA70022A121 /* LigoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D5251A5242AAB9B0022A121 /* Ligo */ = {
+			isa = PBXGroup;
+			children = (
+				19D7FE8224C5CC5100E2BA3A /* GoogleService-Info.plist */,
+				1918001E24C0CDB400835497 /* Ligo.entitlements */,
+				B35EE72C2491C4D1006A7868 /* Setting */,
+				5D7922EC243F0B7500D53490 /* Assets */,
+				5D5251D8242AACDD0022A121 /* Log In */,
+				5D5251DD242AAD100022A121 /* Home */,
+				5D6ED4192435771E00EC4FBC /* View Card */,
+				5D6D024E242C4F900008C3AA /* Edit Card */,
+				5D0DED932436BC34001564AB /* Link Requests */,
+				19F240A72485C6510002D970 /* UI */,
+				5D0ABB5C242E9F8000F02D13 /* Model */,
+				84397FCA243118680009033D /* Delegates */,
+				19F240A32485C39A0002D970 /* Extensions.swift */,
+				5D5251B1242AABA60022A121 /* LaunchScreen.storyboard */,
+				5D5251B4242AABA60022A121 /* Info.plist */,
+			);
+			path = Ligo;
+			sourceTree = "<group>";
+		};
+		5D5251BC242AABA70022A121 /* LigoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D5251BD242AABA70022A121 /* LigoTests.swift */,
+				5D5251BF242AABA70022A121 /* Info.plist */,
+			);
+			path = LigoTests;
+			sourceTree = "<group>";
+		};
+		5D5251C7242AABA70022A121 /* LigoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D5251C8242AABA70022A121 /* LigoUITests.swift */,
+				5D5251CA242AABA70022A121 /* Info.plist */,
+			);
+			path = LigoUITests;
+			sourceTree = "<group>";
+		};
+		5D5251D8242AACDD0022A121 /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				5D5251AC242AAB9B0022A121 /* Main.storyboard */,
+				5D5251D6242AACC90022A121 /* LogInViewController.swift */,
+				5D6778A32431882400B8E9D7 /* SignUpViewController.swift */,
+				19BA6D9A24853DDD004C75DB /* LoginSignUpViewController.swift */,
+				190F2C022489E0D5004CEC01 /* SplashViewController.swift */,
+			);
+			path = "Log In";
+			sourceTree = "<group>";
+		};
+		5D5251DD242AAD100022A121 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8471A89F24B361810039C399 /* QRCodeView.swift */,
+				8471A89D24B3616D0039C399 /* PopUpViewController.swift */,
+				5D5251D9242AACF60022A121 /* Home.storyboard */,
+				5D5251DB242AAD0B0022A121 /* HomeViewController.swift */,
+				5D6ED41224356E2500EC4FBC /* My Wallet */,
+				5D6ED40524356A3200EC4FBC /* Search */,
+				19F240B32487365B0002D970 /* SideBar */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5D6D024E242C4F900008C3AA /* Edit Card */ = {
+			isa = PBXGroup;
+			children = (
+				B3A45FBC249C7A3A00DB0015 /* Change Color */,
+				5D6D024A242C4C160008C3AA /* EditCard.storyboard */,
+				5D6D024C242C4F8B0008C3AA /* EditCardViewController.swift */,
+				5D0ABB5F242EA4C900F02D13 /* EditCardTableViewCell.swift */,
+				197A93EB254CD1EB00F739F8 /* AddInfoTableViewCell.swift */,
+				190F2C0024896266004CEC01 /* EditCardController+DataSource+Delegate.swift */,
+			);
+			path = "Edit Card";
+			sourceTree = "<group>";
+		};
+		5D6ED40524356A3200EC4FBC /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				5DB448B124369713007CBDC4 /* Main Controller */,
+				5DB448B224369737007CBDC4 /* Results Controller */,
+				5D6ED40B24356A3200EC4FBC /* Contact.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		5D6ED41224356E2500EC4FBC /* My Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				5D6ED4152435714000EC4FBC /* HomeViewController+DataSource.swift */,
+				19E48153248BE6C000381DDC /* HomeViewController+Indexing.swift */,
+				19E48155248C125D00381DDC /* IndexCollectionViewCell.swift */,
+			);
+			path = "My Wallet";
+			sourceTree = "<group>";
+		};
+		5D6ED4192435771E00EC4FBC /* View Card */ = {
+			isa = PBXGroup;
+			children = (
+				5D6ED41A2435773B00EC4FBC /* ViewCard.storyboard */,
+				5D6ED41C24357A0500EC4FBC /* ViewCardViewController.swift */,
+				5D6ED42024357D1F00EC4FBC /* ViewCardController+DataSource+Delegate.swift */,
+				5D6ED41E24357AB200EC4FBC /* ViewCardTableViewCell.swift */,
+			);
+			path = "View Card";
+			sourceTree = "<group>";
+		};
+		5D7922EB243F0B5A00D53490 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5D7922ED243F0C6700D53490 /* Montserrat ExtraLight.ttf */,
+				5D7922F1243F0C6800D53490 /* Montserrat ExtraLight Italic.ttf */,
+				5D7922FA243F0C6A00D53490 /* Montserrat Thin.ttf */,
+				5D7922F6243F0C6900D53490 /* Montserrat Thin Italic.ttf */,
+				5D7922FB243F0C6B00D53490 /* Montserrat Light.ttf */,
+				5D7922F7243F0C6900D53490 /* Montserrat Light Italic.ttf */,
+				5D7922EE243F0C6700D53490 /* Montserrat Regular.ttf */,
+				5D7922F4243F0C6900D53490 /* Montserrat Italic.ttf */,
+				5D7922F0243F0C6800D53490 /* Montserrat Medium.ttf */,
+				5D7922F9243F0C6A00D53490 /* Montserrat Medium Italic.ttf */,
+				5D7922FC243F0C6B00D53490 /* Montserrat SemiBold.ttf */,
+				5D7922EF243F0C6700D53490 /* Montserrat SemiBold Italic.ttf */,
+				5D7922F5243F0C6900D53490 /* Montserrat Bold.ttf */,
+				5D7922FE243F0C6B00D53490 /* Montserrat Bold Italic.ttf */,
+				5D7922F2243F0C6800D53490 /* Montserrat ExtraBold.ttf */,
+				5D7922FD243F0C6B00D53490 /* Montserrat ExtraBold Italic.ttf */,
+				5D7922F8243F0C6A00D53490 /* Montserrat Black.ttf */,
+				5D7922F3243F0C6800D53490 /* Montserrat Black Italic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5D7922EC243F0B7500D53490 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5D5251AF242AABA60022A121 /* Assets.xcassets */,
+				5D7922EB243F0B5A00D53490 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5DB448B124369713007CBDC4 /* Main Controller */ = {
+			isa = PBXGroup;
+			children = (
+				19F240B2248736510002D970 /* Cells */,
+				5DB448B724369AAE007CBDC4 /* HomeViewController+ViewStateListener.swift */,
+				5D6ED40824356A3200EC4FBC /* SearchMainTableViewController.swift */,
+				5D6ED40624356A3200EC4FBC /* SearchMainController+DataSource.swift */,
+				5D6ED40724356A3200EC4FBC /* SearchMainController+Updating.swift */,
+				5D6ED40A24356A3200EC4FBC /* SearchMainController+Restore.swift */,
+			);
+			path = "Main Controller";
+			sourceTree = "<group>";
+		};
+		5DB448B224369737007CBDC4 /* Results Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5D6ED40924356A3200EC4FBC /* SearchResultsTableViewController.swift */,
+				5D452B0324367F5100267408 /* SearchResultsController+CellDelegate.swift */,
+				5D452B01243673DA00267408 /* SearchResultsTableViewCell.swift */,
+			);
+			path = "Results Controller";
+			sourceTree = "<group>";
+		};
+		84397FCA243118680009033D /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				5D5251A6242AAB9B0022A121 /* AppDelegate.swift */,
+				5D5251A8242AAB9B0022A121 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		B35EE72C2491C4D1006A7868 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				B35EE72D2491C4D9006A7868 /* Settings.storyboard */,
+				84403AA5249B10CB000F52F8 /* SettingsTableViewController.swift */,
+				84164261249C29AE00CD77C8 /* PasswordTableViewController.swift */,
+				849C342624B15782009FEDED /* BusinessConnectViewController.swift */,
+				8490321624D861FA00714EEE /* PrivacySettingsTableViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		B3A45FBC249C7A3A00DB0015 /* Change Color */ = {
+			isa = PBXGroup;
+			children = (
+				B3A45FBD249C7A3A00DB0015 /* ChangeColorViewController3.swift */,
+				B3A45FBE249C7A3A00DB0015 /* ChangeColor.storyboard */,
+			);
+			path = "Change Color";
+			sourceTree = "<group>";
+		};
+		D09D3BA4CCE594EF3046B46D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				549A414E80532BC28DAA9174 /* Pods-Ligo.debug.xcconfig */,
+				3C6689EF7BE89BC0DE15E1DF /* Pods-Ligo.release.xcconfig */,
+				87B4CB75B046D0F05B0CE790 /* Pods-Ligo-LigoUITests.debug.xcconfig */,
+				9896FFD600C4571D9ADEC4F3 /* Pods-Ligo-LigoUITests.release.xcconfig */,
+				9706111BB1FCC505E127CABC /* Pods-LigoTests.debug.xcconfig */,
+				F83B8C170C540124395F1096 /* Pods-LigoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D5251A2242AAB9B0022A121 /* Ligo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5251CD242AABA70022A121 /* Build configuration list for PBXNativeTarget "Ligo" */;
+			buildPhases = (
+				986DADEADF175223656FC6C8 /* [CP] Check Pods Manifest.lock */,
+				5D52519F242AAB9B0022A121 /* Sources */,
+				5D5251A0242AAB9B0022A121 /* Frameworks */,
+				5D5251A1242AAB9B0022A121 /* Resources */,
+				19DBF27F24D35AC800F5B525 /* ShellScript */,
+				D6C9D83C2A73C25C467D126E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ligo;
+			productName = Ligo;
+			productReference = 5D5251A3242AAB9B0022A121 /* Ligo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D5251B8242AABA70022A121 /* LigoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5251D0242AABA70022A121 /* Build configuration list for PBXNativeTarget "LigoTests" */;
+			buildPhases = (
+				828DB2887E531670365B91F1 /* [CP] Check Pods Manifest.lock */,
+				5D5251B5242AABA70022A121 /* Sources */,
+				5D5251B6242AABA70022A121 /* Frameworks */,
+				5D5251B7242AABA70022A121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D5251BB242AABA70022A121 /* PBXTargetDependency */,
+			);
+			name = LigoTests;
+			productName = LigoTests;
+			productReference = 5D5251B9242AABA70022A121 /* LigoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D5251C3242AABA70022A121 /* LigoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5251D3242AABA70022A121 /* Build configuration list for PBXNativeTarget "LigoUITests" */;
+			buildPhases = (
+				2E80B53F72F974D03A7C1083 /* [CP] Check Pods Manifest.lock */,
+				5D5251C0242AABA70022A121 /* Sources */,
+				5D5251C1242AABA70022A121 /* Frameworks */,
+				5D5251C2242AABA70022A121 /* Resources */,
+				62399DF7B7D140F35EB2798B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D5251C6242AABA70022A121 /* PBXTargetDependency */,
+			);
+			name = LigoUITests;
+			productName = LigoUITests;
+			productReference = 5D5251C4242AABA70022A121 /* LigoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D52519B242AAB9B0022A121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Ligo;
+				TargetAttributes = {
+					5D5251A2242AAB9B0022A121 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					5D5251B8242AABA70022A121 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5D5251A2242AAB9B0022A121;
+					};
+					5D5251C3242AABA70022A121 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5D5251A2242AAB9B0022A121;
+					};
+				};
+			};
+			buildConfigurationList = 5D52519E242AAB9B0022A121 /* Build configuration list for PBXProject "Ligo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D52519A242AAB9B0022A121;
+			productRefGroup = 5D5251A4242AAB9B0022A121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D5251A2242AAB9B0022A121 /* Ligo */,
+				5D5251B8242AABA70022A121 /* LigoTests */,
+				5D5251C3242AABA70022A121 /* LigoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D5251A1242AAB9B0022A121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D792304243F0E5000D53490 /* Montserrat Light Italic.ttf in Resources */,
+				5D792305243F0E5000D53490 /* Montserrat Regular.ttf in Resources */,
+				5D0DED952436BCA8001564AB /* LinkRequests.storyboard in Resources */,
+				5D792310243F0E5000D53490 /* Montserrat Black Italic.ttf in Resources */,
+				5D6D024B242C4C160008C3AA /* EditCard.storyboard in Resources */,
+				5D792300243F0E5000D53490 /* Montserrat ExtraLight Italic.ttf in Resources */,
+				5D792309243F0E5000D53490 /* Montserrat SemiBold.ttf in Resources */,
+				5D5251B3242AABA60022A121 /* LaunchScreen.storyboard in Resources */,
+				5D79230D243F0E5000D53490 /* Montserrat ExtraBold.ttf in Resources */,
+				5D792306243F0E5000D53490 /* Montserrat Italic.ttf in Resources */,
+				B3A45FC0249C7A3A00DB0015 /* ChangeColor.storyboard in Resources */,
+				5D6ED41B2435773B00EC4FBC /* ViewCard.storyboard in Resources */,
+				5D79230B243F0E5000D53490 /* Montserrat Bold.ttf in Resources */,
+				19D7FE8324C5CC5100E2BA3A /* GoogleService-Info.plist in Resources */,
+				5D79230F243F0E5000D53490 /* Montserrat Black.ttf in Resources */,
+				5D7922FF243F0E4B00D53490 /* Montserrat ExtraLight.ttf in Resources */,
+				5D5251B0242AABA60022A121 /* Assets.xcassets in Resources */,
+				5D79230E243F0E5000D53490 /* Montserrat ExtraBold Italic.ttf in Resources */,
+				5D792301243F0E5000D53490 /* Montserrat Thin.ttf in Resources */,
+				5D5251AE242AAB9B0022A121 /* Main.storyboard in Resources */,
+				5D792302243F0E5000D53490 /* Montserrat Thin Italic.ttf in Resources */,
+				5D792308243F0E5000D53490 /* Montserrat Medium Italic.ttf in Resources */,
+				5D792307243F0E5000D53490 /* Montserrat Medium.ttf in Resources */,
+				5D792303243F0E5000D53490 /* Montserrat Light.ttf in Resources */,
+				5D79230A243F0E5000D53490 /* Montserrat SemiBold Italic.ttf in Resources */,
+				5D79230C243F0E5000D53490 /* Montserrat Bold Italic.ttf in Resources */,
+				5D5251DA242AACF60022A121 /* Home.storyboard in Resources */,
+				B35EE72E2491C4D9006A7868 /* Settings.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5251B7242AABA70022A121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5251C2242AABA70022A121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19DBF27F24D35AC800F5B525 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		2E80B53F72F974D03A7C1083 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ligo-LigoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62399DF7B7D140F35EB2798B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ligo-LigoUITests/Pods-Ligo-LigoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ligo-LigoUITests/Pods-Ligo-LigoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ligo-LigoUITests/Pods-Ligo-LigoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		828DB2887E531670365B91F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LigoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		986DADEADF175223656FC6C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ligo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6C9D83C2A73C25C467D126E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ligo/Pods-Ligo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ligo/Pods-Ligo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ligo/Pods-Ligo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D52519F242AAB9B0022A121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0ABB5E242EA08100F02D13 /* Identity.swift in Sources */,
+				5D6ED40E24356A3200EC4FBC /* SearchMainTableViewController.swift in Sources */,
+				19F240A62485C5FD0002D970 /* CustomSwitch.swift in Sources */,
+				19A12EA22488BF12000A61E3 /* CardSection.swift in Sources */,
+				1980D78A24EFC4A900597E3D /* Partner.swift in Sources */,
+				19F240A42485C39A0002D970 /* Extensions.swift in Sources */,
+				5DB448B824369AAE007CBDC4 /* HomeViewController+ViewStateListener.swift in Sources */,
+				19F240A92485D8D60002D970 /* AlertBox.swift in Sources */,
+				84164263249C29AE00CD77C8 /* PasswordTableViewController.swift in Sources */,
+				8490320F24D7A66300714EEE /* Analytics.swift in Sources */,
+				19F240B12487331B0002D970 /* WalletUITableViewCell.swift in Sources */,
+				1918001924BE619100835497 /* RoveWalkThrough.swift in Sources */,
+				5D6ED4162435714000EC4FBC /* HomeViewController+DataSource.swift in Sources */,
+				84403AA7249B10CB000F52F8 /* SettingsTableViewController.swift in Sources */,
+				8471A89E24B3616D0039C399 /* PopUpViewController.swift in Sources */,
+				5DB448B6243697AC007CBDC4 /* ViewStateListener.swift in Sources */,
+				5D5251A7242AAB9B0022A121 /* AppDelegate.swift in Sources */,
+				5D5251A9242AAB9B0022A121 /* SceneDelegate.swift in Sources */,
+				1918002024C0E79E00835497 /* ProfileView.swift in Sources */,
+				5D452B02243673DA00267408 /* SearchResultsTableViewCell.swift in Sources */,
+				5D6ED41124356A3200EC4FBC /* Contact.swift in Sources */,
+				5D452B0424367F5100267408 /* SearchResultsController+CellDelegate.swift in Sources */,
+				5D0ABB60242EA4C900F02D13 /* EditCardTableViewCell.swift in Sources */,
+				19BA6D9F2485B78B004C75DB /* PasswordEntryTextField.swift in Sources */,
+				5D6ED41F24357AB200EC4FBC /* ViewCardTableViewCell.swift in Sources */,
+				B3A45FBF249C7A3A00DB0015 /* ChangeColorViewController3.swift in Sources */,
+				197D674F24A3DA19002E359F /* PasswordResetView.swift in Sources */,
+				5D6ED41D24357A0500EC4FBC /* ViewCardViewController.swift in Sources */,
+				19F240AB2485E65C0002D970 /* LoadingView.swift in Sources */,
+				19BA6D9B24853DDD004C75DB /* LoginSignUpViewController.swift in Sources */,
+				19A12EA02488B7B5000A61E3 /* CardTableViewHandler.swift in Sources */,
+				5D17F1CD243FB57E00A65E66 /* UIView+Button.swift in Sources */,
+				19E48156248C125D00381DDC /* IndexCollectionViewCell.swift in Sources */,
+				5D6ED40D24356A3200EC4FBC /* SearchMainController+Updating.swift in Sources */,
+				190F2C0124896266004CEC01 /* EditCardController+DataSource+Delegate.swift in Sources */,
+				5D6ED40C24356A3200EC4FBC /* SearchMainController+DataSource.swift in Sources */,
+				8490321724D861FA00714EEE /* PrivacySettingsTableViewController.swift in Sources */,
+				849C342824B15782009FEDED /* BusinessConnectViewController.swift in Sources */,
+				197D674D24A37B65002E359F /* ColorPicker.swift in Sources */,
+				19E4815D248CCB9D00381DDC /* Theme.swift in Sources */,
+				19BA6D9D24854414004C75DB /* CustomButton.swift in Sources */,
+				19E48154248BE6C000381DDC /* HomeViewController+Indexing.swift in Sources */,
+				5D6778A42431882400B8E9D7 /* SignUpViewController.swift in Sources */,
+				1957588924D3047A001B06B0 /* QRCodeView1.swift in Sources */,
+				5D6ED41024356A3200EC4FBC /* SearchMainController+Restore.swift in Sources */,
+				197D675124A3E9FD002E359F /* TNCView.swift in Sources */,
+				19FA6ECE24D1A35600040EF4 /* BaseViewController.swift in Sources */,
+				5D5251D7242AACC90022A121 /* LogInViewController.swift in Sources */,
+				5D0C0095243E7EA000608D58 /* GradientView.swift in Sources */,
+				19AD686D24C828C400667B1F /* DataGrab.swift in Sources */,
+				5D6D024D242C4F8B0008C3AA /* EditCardViewController.swift in Sources */,
+				5D0DED992436BD3A001564AB /* LinkRequestsTableViewCell.swift in Sources */,
+				190F2C032489E0D5004CEC01 /* SplashViewController.swift in Sources */,
+				5D9646C22437C7EB003EBD83 /* LinkRequestsController+CellDelegate.swift in Sources */,
+				5D5251DC242AAD0B0022A121 /* HomeViewController.swift in Sources */,
+				84397FC8243117EE0009033D /* CustomAlert.swift in Sources */,
+				8471A8A024B361810039C399 /* QRCodeView.swift in Sources */,
+				5D0DED972436BCEA001564AB /* LinkRequestsTableViewController.swift in Sources */,
+				1957588724D2AFDE001B06B0 /* StoreReviewHelper.swift in Sources */,
+				5D6ED42124357D1F00EC4FBC /* ViewCardController+DataSource+Delegate.swift in Sources */,
+				197A93EC254CD1EB00F739F8 /* AddInfoTableViewCell.swift in Sources */,
+				5D6ED40F24356A3200EC4FBC /* SearchResultsTableViewController.swift in Sources */,
+				19F240AF248690EC0002D970 /* Sidebar.swift in Sources */,
+				1918001D24BF792500835497 /* ImageHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5251B5242AABA70022A121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5251BE242AABA70022A121 /* LigoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5251C0242AABA70022A121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5251C9242AABA70022A121 /* LigoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D5251BB242AABA70022A121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D5251A2242AAB9B0022A121 /* Ligo */;
+			targetProxy = 5D5251BA242AABA70022A121 /* PBXContainerItemProxy */;
+		};
+		5D5251C6242AABA70022A121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D5251A2242AAB9B0022A121 /* Ligo */;
+			targetProxy = 5D5251C5242AABA70022A121 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D5251AC242AAB9B0022A121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5251AD242AAB9B0022A121 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D5251B1242AABA60022A121 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5251B2242AABA60022A121 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84164261249C29AE00CD77C8 /* PasswordTableViewController.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84164262249C29AE00CD77C8 /* Base */,
+			);
+			name = PasswordTableViewController.swift;
+			sourceTree = "<group>";
+		};
+		84403AA5249B10CB000F52F8 /* SettingsTableViewController.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84403AA6249B10CB000F52F8 /* Base */,
+			);
+			name = SettingsTableViewController.swift;
+			sourceTree = "<group>";
+		};
+		849C342624B15782009FEDED /* BusinessConnectViewController.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849C342724B15782009FEDED /* Base */,
+			);
+			name = BusinessConnectViewController.swift;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D5251CB242AABA70022A121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D5251CC242AABA70022A121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D5251CE242AABA70022A121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 549A414E80532BC28DAA9174 /* Pods-Ligo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Ligo/Ligo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4.13;
+				DEVELOPMENT_TEAM = 3PLWW4V9G5;
+				INFOPLIST_FILE = Ligo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ligo.ligoapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D5251CF242AABA70022A121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6689EF7BE89BC0DE15E1DF /* Pods-Ligo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Ligo/Ligo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4.13;
+				DEVELOPMENT_TEAM = 3PLWW4V9G5;
+				INFOPLIST_FILE = Ligo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ligo.ligoapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D5251D1242AABA70022A121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9706111BB1FCC505E127CABC /* Pods-LigoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PLWW4V9G5;
+				INFOPLIST_FILE = LigoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ligo.LigoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ligo.app/Ligo";
+			};
+			name = Debug;
+		};
+		5D5251D2242AABA70022A121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83B8C170C540124395F1096 /* Pods-LigoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PLWW4V9G5;
+				INFOPLIST_FILE = LigoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ligo.LigoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ligo.app/Ligo";
+			};
+			name = Release;
+		};
+		5D5251D4242AABA70022A121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87B4CB75B046D0F05B0CE790 /* Pods-Ligo-LigoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJWX9V9649;
+				INFOPLIST_FILE = LigoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ligo.LigoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ligo;
+			};
+			name = Debug;
+		};
+		5D5251D5242AABA70022A121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9896FFD600C4571D9ADEC4F3 /* Pods-Ligo-LigoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJWX9V9649;
+				INFOPLIST_FILE = LigoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ligo.LigoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ligo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D52519E242AAB9B0022A121 /* Build configuration list for PBXProject "Ligo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5251CB242AABA70022A121 /* Debug */,
+				5D5251CC242AABA70022A121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5251CD242AABA70022A121 /* Build configuration list for PBXNativeTarget "Ligo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5251CE242AABA70022A121 /* Debug */,
+				5D5251CF242AABA70022A121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5251D0242AABA70022A121 /* Build configuration list for PBXNativeTarget "LigoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5251D1242AABA70022A121 /* Debug */,
+				5D5251D2242AABA70022A121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5251D3242AABA70022A121 /* Build configuration list for PBXNativeTarget "LigoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5251D4242AABA70022A121 /* Debug */,
+				5D5251D5242AABA70022A121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D52519B242AAB9B0022A121 /* Project object */;
+}
